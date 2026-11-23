@@ -12,8 +12,7 @@ To create a sample customer dataset and perform data exploration, filtering, sor
 
 1. **Start** the program.
 2. **Import Library:** Import the `pandas` library as `pd` for tabular data manipulation and analysis.
-3. **Initialize Dataset:** Create a Python dictionary named `data` containintg customer attributes
-(`Customer_ID`, `Customer_Name`, `Region`,`Age`,`Annual_Income`,`Spending_Score`,`Loyalty_Years`
+3. **Initialize Dataset:** Create a Python dictionary named `data` containintg customer attributes(`Customer_ID`,`Customer_Name`,`Region`,`Age`,`Annual_Income`,`Spending_Score`,`Loyalty_Years`)
 4. **Construct DataFrame:** Convert the dictionary into a structured Pandas DataFrame `df` using `pd.DataFrame(data)` and print the dataset.
 5. **Inspect Structure & Summary:**
    - Display dataset dimensions `df.shape`,column names using `df.columns`,data types and null counts using `df.info()`),and descriptive statistics`df.describe()`.
@@ -37,13 +36,13 @@ To create a sample customer dataset and perform data exploration, filtering, sor
 |---|---|---|
 | **Data Creation** | `pd.DataFrame()` | Converts a Python dictionary into a 2D labeled tabular DataFrame. |
 | **Structural Inspection** | `df.shape`, `df.columns` | Retrieves dimensions (rows, columns) and column labels. |
-| **Structural Inspection** | `df.info()`, `df.describe()` | Summarizes column data types, memory usage, and descriptive statistics. |
-| **Structural Inspection** | `df.head(n)`, `df.tail(n)` | Views the first `n` and last `n` rows of the dataset. |
+|                           | `df.info()`, `df.describe()` | Summarizes column data types, memory usage, and descriptive statistics. |
+|                           | `df.head(n)`, `df.tail(n)` | Views the first `n` and last `n` rows of the dataset. |
 | **Sorting & Filtering** | `df.sort_values()` | Orders records by `Annual_Income` in descending order. |
-| **Sorting & Filtering** | Boolean Indexing (`df[...]`) | Filters customers with `Annual_Income > 70000`. |
+|                   | Boolean Indexing (`df[...]`) | Filters customers with `Annual_Income > 70000`. |
 | **Grouping & Aggregation** | `df.groupby().mean()` | Aggregates mean income and spending score per `Region`. |
-| **Grouping & Aggregation** | `df["Region"].value_counts()` | Counts occurrences of customers in each region. |
-| **Grouping & Aggregation** | `idxmax()`, `df.loc[]`, `.mean()` | Locates the top spender row and computes dataset-wide averages. |
+|                  | `df["Region"].value_counts()` | Counts occurrences of customers in each region. |
+|                    | `idxmax()`, `df.loc[]`, `.mean()` | Locates the top spender row and computes dataset-wide averages. |
 
 ## Program
 ## Input 1
