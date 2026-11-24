@@ -241,4 +241,5 @@ Average Annual Income: 66625.0
 Average Spending Score: 68.75
 ```
 ## Result
+
 The program successfully creates a customer dataset using Pandas and performs exploratory analysis, sorting, filtering, regional grouping, and summary statistics.
