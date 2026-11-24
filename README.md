@@ -6,10 +6,6 @@ To create a sample customer dataset and perform data exploration, filtering, sor
 
 ## Algorithm
 
-## Customer Data Analysis Using Pandas
-
-### Algorithm / Steps
-
 1. **Start** the program.
 2. **Import Library:** Import the `pandas` library as `pd` for tabular data manipulation and analysis.
 3. **Initialize Dataset:** Create a Python dictionary named `data` containintg customer attributes(`Customer_ID`,`Customer_Name`,`Region`,`Age`,`Annual_Income`,`Spending_Score`,`Loyalty_Years`)
@@ -27,8 +23,6 @@ To create a sample customer dataset and perform data exploration, filtering, sor
    - Identify the customer record with the highest `Spending_Score` using `df["Spending_Score"].idxmax()` and `df.loc[]`.
    - Calculate overall mean `Annual_Income`and mean `Spending_Score`.
 9. **Stop** the program.
-
-## Functions and Methods Used
 
 ## Functions and Methods Used
 
